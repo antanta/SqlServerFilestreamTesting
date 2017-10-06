@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Index";
+    bool statusParsed = false, statusPresent = false;
+    if (ViewBag.Status != null)
+    {
+        statusParsed = ViewBag.Status;
+        statusPresent = true;
+    }
+}
+
+@*<form action="/Home/UploadFile" method="post" enctype="multipart/form-data">
+    <label for="file">Filename:</label>
+    <input type="file" name="file" id="file" />
+    <input type="submit" />
+</form>*@
+
+
+<form action="/Home/UploadFile" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="exampleInputFile">File: </label>
+        <input type="file" class="form-control" id="exampleInputFile" placeholder="Select file to upload..." name="file">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<p>
+    @{
+        if (statusPresent)
+        {
+            if (statusParsed)
+            {
+                <div class="alert alert-success" role="alert">
+                    File uploaded successfully.
+                </div>
+            }
+            else
+            {
+                <div class="alert alert-danger" role="alert">
+                    Error uploading file: @ViewBag.ЕrrorMessage
+                </div>
+            }
+        }
+    }
+</p>
+

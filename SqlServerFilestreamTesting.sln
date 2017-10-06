@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlServerFilestreamTesting", "SqlServerFilestreamTesting\SqlServerFilestreamTesting.csproj", "{D87A120C-BDA2-4063-A7D2-846EB4E053D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5EE2F900-9DDF-41E3-8CE0-8E0B34801421}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE8A2B7C-6AE5-408D-8D16-272257004986}"
+	ProjectSection(SolutionItems) = preProject
+		filestream_sql.sql = filestream_sql.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D87A120C-BDA2-4063-A7D2-846EB4E053D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87A120C-BDA2-4063-A7D2-846EB4E053D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87A120C-BDA2-4063-A7D2-846EB4E053D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87A120C-BDA2-4063-A7D2-846EB4E053D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE2F900-9DDF-41E3-8CE0-8E0B34801421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE2F900-9DDF-41E3-8CE0-8E0B34801421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE2F900-9DDF-41E3-8CE0-8E0B34801421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE2F900-9DDF-41E3-8CE0-8E0B34801421}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9208B921-C6EA-4F4D-8F11-DA7927733D2B}
+	EndGlobalSection
+EndGlobal
